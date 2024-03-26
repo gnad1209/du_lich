@@ -1,0 +1,73 @@
+@charset "utf-8";
+/* CSS Document */
+.left_menu {
+	border-right: 1px solid #FFF;
+    font-size: 18px;
+    /* background-color: #90bade; */
+    color: #F00;
+    font-weight: bold;
+    width: 100%;
+}
+.c{
+	font-weight: normal;
+}
+.left_menu ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+ 
+.left_menu li {
+	margin: 0;
+	list-style: none;
+	list-style-image: none;
+	VERTICAL-ALIGN: middle; 
+	color: #fff;
+	border: 1px rgb(41, 39, 39) solid;
+}
+
+.left_menu li a {
+	display: block;
+	padding: 3px 3px 3px 0.5em;
+	/* background-color: #306161; */
+	color:#000;
+	text-decoration: none;
+}
+/* li trang chu */
+.left_menu .mc a{
+	padding: 4px;
+	 COLOR: #333 ;BACKGROUND-COLOR: #FA5912;
+	 text-align: center;
+}
+/* li trang chu hover chi vao đổi màu chữ */
+.left_menu .mc a:hover{
+PADDING-LEFT: 4px; 
+FONT-WEIGHT: bold;  
+color: #FA5912;
+BACKGROUND-COLOR: #FA5912;
+text-shadow: 0px 1px 0px #c7c8ca,
+	0px 8px 7px #001135,
+	0px 7px 0px #4d4d4f,
+	0px 6px 0px #636466,
+	0px 5px 0px #77787b,
+	0px 4px 0px #8a8c8e,
+	0px 3px 0px #9d9fa2,
+	0px 2px 8px #b1b3b6
+}
+.left_menu li a:hover {
+	background-color: #FA5912;
+	color: #FA5912;
+	box-shadow: 20px 20px 50px 10px pink inset;
+	
+}
+
+.left_menu li.c a:hover,.left_menu li.c a.on 
+{
+	border-left-width:medium;
+	background-color: #FA5912;
+	color: #FA5912;
+	text-decoration: none;
+}
+
+

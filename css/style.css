@@ -1,0 +1,154 @@
+@charset "utf-8";
+/* CSS Document */
+.btndangky 
+{
+	width:108px; 
+	height:45px; 
+	color:#FFF; 
+	font-size:14px;
+	border:none; 
+	cursor:pointer; 
+	font-weight:bold;
+	background:url(../anh/cooltext462176591.png) ;
+}
+.btndangky:hover
+{
+	background:url(../anh/cooltext462176591MouseOver.png) ;
+}
+.btnthoat 
+{
+	width:80px; 
+	height:45px; 
+	color:#FFF; 
+	font-size:17px;
+	border:none; 
+	cursor:pointer; 
+	font-weight:bold;
+	background:url(../anh/cooltext462176418.png);
+}
+.btnthoat:hover
+{
+	background:url(../anh/cooltext462176418MouseOver.png) ;
+}
+.dangky
+{
+	text-align: center;
+    line-height: 38px;
+    margin: 0;
+}
+.btncapnhat 
+{
+	width:115px; 
+	height:45px; 
+	color:#FFF; 
+	font-size:17px;
+	border:none; 
+	cursor:pointer; 
+	font-weight:bold;
+	background:url(../anh/cooltext462232186.png);
+}
+.btncapnhat:hover
+{
+	background:url(../anh/cooltext462232186MouseOver.png) ;
+}
+.btnexit 
+{
+	width:80px; 
+	height:45px; 
+	color:#FFF; 
+	font-size:17px;
+	border:none; 
+	cursor:pointer; 
+	font-weight:bold;
+	background:url(../anh/cooltext462232293.png);
+}
+.btnexit:hover
+{
+	background:url(../anh/cooltext462232293MouseOver.png) ;
+}
+.btnDangNhap{
+	padding: 12px;
+    color: #fff;
+    background: #49a2d9;
+    border-radius: 8px;
+}
+.btnDangNhap:hover{
+	color: #333;
+    background: #96d7ff;
+	cursor: pointer;
+}
+.chitiettour 
+{
+	margin: 0;
+	float: left;
+	display: inline-block;
+	width:112px; 
+	height:45px; 
+	color:#FFF; 
+	border:none; 
+	cursor:pointer; 
+	font-weight:bold;
+	background:url(../anh/cooltext462726315.png);
+}
+.chitiettour:hover{
+	background: url(../anh/cooltext462726315MouseOver.png);
+}
+
+.huytour{
+		margin: 0;
+		float: left;
+		display: block;
+		width: 90px;
+		height: 45px;
+		color: #FFF;
+		border: none;
+		cursor: pointer;
+		font-weight: bold;
+		background: url(../anh/cooltext462726487.png);
+	}
+.chu 
+{
+	font:Georgia, "Times New Roman", Times, serif;
+	font-size:16px;
+	color:#06C;
+}
+
+.tanle
+{
+	border-collapse:separate;
+	border-color:#06F;
+}
+.table a{
+display:inline-table;
+font-size:12px;
+text-decoration:none; 
+font-weight:normal;
+color:#03F;
+width:170px;
+height:25px;
+line-height:20px;
+text-align:center;
+float:left;
+}
+.anh img
+{
+	float:left;
+	margin-right:12px;
+}
+.lechotable
+{
+	padding-left:10px;
+	padding-right:10px;	
+}
+.chuto
+{
+	/* font:Georgia, "Times New Roman", Times, serif; */
+	font-size:18px;
+	color:#06C;
+	font-weight:bold;
+}
+
+.bgtable {
+	opacity: 0.8;
+	background-color: rgb(236, 227, 227);
+}

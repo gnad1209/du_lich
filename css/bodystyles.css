@@ -1,0 +1,141 @@
+@charset "utf-8";
+/* CSS Document */
+BODY {
+	color:black;
+	margin: 0;
+	width: 100%;
+}
+
+*{
+	text-decoration: none;
+	font-family:Arial, Helvetica, sans-serif;
+}
+	td, tr {
+		padding: 0;
+		margin: 0;
+	}
+input{
+	padding: 8px;
+	border: 1px solid #dadada;
+	border-radius: 7px
+}
+.select,
+.select option{
+	padding: 8px;
+	font-size: 16px;
+}
+.select:hover, .select option:hover{
+	cursor: pointer;
+}
+input:focus, .select:focus, textarea:focus{
+	outline: none;
+	border-color: #9ecaed;
+	box-shadow: 0 0 20px #9ecaed;
+}
+.btnsuaxoa{
+	border: 1px solid #9ecaed;
+	padding: 8px;
+}
+FORM {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+/*************  main  **************/
+.submenu{
+	width:70%;
+	height: 46px;
+}
+
+.menu {
+width:100%; 
+font-size:  14px;
+position:relative; 
+z-index:100;
+}
+.menu .nav>li{
+	width: 20%;
+}
+/* chỉ li menu in đậm */
+.menu .nav>li>a{
+	font-weight: bold;
+}
+
+.menu .nav>li:hover, .menu .nav li:hover >a{
+	background-color: rgb(153 218 221);
+	color: #FA5912;
+	cursor: pointer;
+	box-shadow: 20px 20px 50px 10px pink inset;
+}
+
+/* loai bo cac cham trang tu mac dinh cua the li */
+.menu ul {
+padding:0;
+margin:0;
+list-style-type:none;
+white-space: normal;
+}
+/* float de cho danh sach ngang hang */
+.menu li {
+float:left;
+width:120px;
+position:relative;
+text-align: center;
+}
+
+/* cac thuoc tinh cua menu muc 1 menu a */
+.menu a, .menu a:visited {
+display:inline-table;
+text-decoration:none; 
+font-weight:normal;
+color:#FFF;
+height:46px;
+line-height:46px;
+}
+
+/* muc lev 2 */
+.menu ul ul a, .menu ul ul a:visited {
+	font-weight:normal;
+	background:#000; 
+	color:#000;  /* mau chu trong drop*/
+	height:auto; 
+	line-height:1em; 
+	padding:5px 10px; 
+	width:170px
+	}
+	/* mau cac dropdown table */
+	.menu ul ul a.drop, .menu ul ul a.drop:visited {
+	background:#FFF; 
+	box-shadow: 5px 10px 8px #888888;
+	}
+
+	/* mau cua table khi di chuot vao */
+	.menu ul ul .drop:hover{
+	background:#FA5912;
+	color: #FA5912;
+	
+	}
+
+	.menu ul li:hover{
+		color: #FA5912;
+	}
+
+	.menu ul ul :hover > a.drop {
+	background:#FA5912;
+	border:1.5px solid rgb(34, 31, 31);
+	}
+	/*an dropdown  khi chua di chuot vao*/
+	.menu ul ul {
+	visibility:hidden;
+	position:absolute;
+	height:0;
+	top: 46px;
+	left:0;
+	width:150px;
+	}
+	/* lam hien ra dropdown khi chi chuot vao */
+	.menu ul li:hover ul,
+	.menu ul a:hover ul{
+	visibility:visible; 
+	}
+
